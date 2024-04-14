@@ -1,0 +1,18 @@
+Git Basics
+
+1. To create a folder, we use 'mk dir' and name is 'learn_git_again'
+2. To change directories we use 'cd' and we jump into 'learn_git_again'
+3. To create a file we use 'touch' and name the file 'third.txt'
+4. To initialize an empty git repository we use 'git init'
+5. To add a file to the staging area we use 'git add' and take the file 'third.txt'
+6. To commit, we use 'git commit' with the flag '-m' which gives it a message and we put "adding third.txt"
+7. You can check your commit with 'git log'
+8. We now create another file using 'touch' and name is 'fourth.txt'
+9. We add this to the staging area also using 'git add' coupled with 'fourth.txt
+10. Now we commit with a message 'git commit -m' with the message' adding fourth.txt'
+11. To remove a file we use 'rm' and chose the file 'third.txt'
+12. To add this change to the staging area we use 'git add' with the name of the file 'third.txt'
+13. Now we commit it 'git commit -m' with the message ' removing third.txt'
+14. we check out log again using 'git log'
+15. For this step we are to change the global setting to core.pager=cat using 'git config' with '--global core.pager cat'
+16. Now we can list all the configurations we have done on git using 'git config' with '--global' and '--list'
